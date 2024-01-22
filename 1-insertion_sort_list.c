@@ -22,7 +22,7 @@ void qwap_nodes(listint_t **k, listint_t **n1, listint_t *n2)
 }
 
 /**
- * insertion_sort_list -Func sorting a doubly linked list of ints 
+ * insertion_sort_list -Func sorting a doubly linked list of ints
  * with the use of the insertion sort algorithm.
  * @list: Pointing to the head of a doubly-linked list of integers.
  * Description: Printing the list after each swap.
