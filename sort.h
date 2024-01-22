@@ -8,9 +8,9 @@
 #define DOWN 1
 
 /**
- * enum bool - Enumerate of Boolean values.
- * @false: Equals 0.
- * @true: Equals 1.
+ * enum bool - Enumeration of the Boolean values.
+ * @false: Equals zero(0).
+ * @true: Equals one(1).
  */
 
 typedef enum bool
@@ -20,11 +20,10 @@ typedef enum bool
 } bool;
 
 /**
- * struct listint_s - Doubly linked list node
- *
- * @n: Integer stored in the node
- * @prev: Pointer to the previous element of the list
- * @next: Pointer to the next element of the list
+ * struct listint_s - Node of a doubly linked list.
+ * @n: Int stored in the node
+ * @prev: Pointing to the previous elem of the list
+ * @next: Pointing to the next elem of the list
  */
 
 typedef struct listint_s
@@ -48,7 +47,5 @@ void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
-void bitonic_sort(int *array, size_t size);
-void quick_sort_hoare(int *array, size_t size);
 
 #endif
