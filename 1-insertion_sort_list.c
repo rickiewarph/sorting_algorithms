@@ -2,7 +2,7 @@
 
 /**
  * qwap_nodes - Func swaping 2 nodes in a listint_t.
- * @h: Pointing to the head of the created doubly-linked list.
+ * @k: Pointing to the head of the created doubly-linked list.
  * @n1: Pointing to the 1st node to swap.
  * @n2: The second node to swap.
  */
