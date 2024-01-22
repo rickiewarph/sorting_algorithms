@@ -5,7 +5,7 @@ void qwap_node_behind(listint_t **list, listint_t **taillingt, listint_t **shake
 void cocktail_sort_list(listint_t **list);
 
 /**
- * qwap_node_ahead - Func to swap a node in a listint_t 
+ * qwap_node_ahead - Func to swap a node in a listint_t
  * doubly-linked list list of ints with the node ahead of it.
  * @list: Pointing  to the head of a doubly-linked list of ints.
  * @taillight: Pointing to the tail of the doubly-linked list.
@@ -31,7 +31,7 @@ void qwap_node_ahead(listint_t **list, listint_t **taillight, listint_t **shaker
 	*shaker = temp;
 }
 /**
- * qwap_node_behind - Func to swap a node in a listint_t 
+ * qwap_node_behind - Func to swap a node in a listint_t
  * doubly-linked list of ints with the node behind it.
  * @list: Pointing to the head of a doubly-linked list of ints.
  * @taillight: Pointing to the tail of the doubly-linked list.

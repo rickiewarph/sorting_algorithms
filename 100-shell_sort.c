@@ -16,7 +16,7 @@ void qwap_ints(int *a, int *b)
 }
 
 /**
- * shell_sort - Func sorting an array of ints in ascending order 
+ * shell_sort - Func sorting an array of ints in ascending order
  * with the use of the shell sort algorithm.
  * @array: An array of ints.
  * @size: The size of the array.
